@@ -8,11 +8,11 @@ client = discord.Client(intents=intents)
 import random
 
 
-def sifre_olusturucu(sifre_uzunlugu):
+def sifre_olusturucu(uzunluk):
     ogeler = "+-/*!&$#?=@<>"
     sifre = ""
 
-    for i in range(sifre_uzunlugu):
+    for i in range(uzunluk):
         sifre += random.choice(ogeler)
 
     return sifre

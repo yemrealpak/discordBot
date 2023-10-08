@@ -10,7 +10,7 @@ import random
 
 def sifre_olusturucu(uzunluk):
     ogeler = "+-/*!&$#?=@<>"
-    sifre = ""
+    password = ""
 
     for i in range(uzunluk):
         sifre += random.choice(ogeler)
